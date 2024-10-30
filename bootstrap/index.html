@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Gallery</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- تعديل الـ Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-body rounded fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo2_footer.png" alt="Brand Logo" style="width: 160px; margin-right: 10px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Privacy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- قسم الساعة -->
+  <section class="watch-container">
+    <div>
+      <h1>Select Your New Perfect Style</h1>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button type="button" class="btn btn-danger">Shop Now</button>
+    </div>
+    <div>
+      <img src="watch.png" alt="Watch Image">
+    </div>
+  </section>
+
+  <!-- قسم المنتجات الجديدة -->
+  <section class="pro container">
+    <div class="row">
+      <h1>NEW PRODUCTS</h1>
+      <div class="col-lg-4 col-md-4">
+        <img src="new_product1.png" alt="">
+        <h2>Abdulrahman front end</h2>
+        <p>$50.50</p>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img src="new_product2.png" alt="">
+        <h2>Abdulrahman front end</h2>
+        <p>$50.50</p>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img src="new_product3.png" alt="">
+        <h2>Abdulrahman front end</h2>
+        <p>$50.50</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم معرض الصور -->
+  <section class="ims container-fluid">
+    <div class="row">
+      <div class="da col-lg-5 col-md-12">
+        <img src="gallery1.png" alt="Gallery Image 1" class="full-width">
+      </div>
+      <div class="ca col-lg-3 col-md-6">
+        <img src="gallery2.png" alt="Gallery Image 2" class="full-width">
+      </div>
+      <div class="ss col-lg-4 col-md-6">
+        <img src="gallery3.png" alt="Gallery Image 3" class="half-width">
+        <img src="gallery4.png" alt="Gallery Image 4" class="half-width">
+      </div>
+    </div>
+  </section>
+
+  <section class="pop">
+    <div>
+        <h1>Popular Item</h1>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga sed autem sunt, iste voluptatum incidunt architecto, distinctio, amet itaque exercitationem et laborum dicta. Soluta, qui maxime et facere rem deleniti.</p>
+    </div>
+    <div class="popphoo">
+        <div class="product">
+            <img src="popular1.png" alt="">
+            <h3>$50</h3>
+            <div class="add-to-cart" style="display: none;">
+                <button class="btn btn-success">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="popular2.png" alt="">
+            <h3>$46</h3>
+            <div class="add-to-cart" style="display: none;">
+                <button class="btn btn-success">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="popular3.png" alt="">
+            <h3>$45</h3>
+            <div class="add-to-cart" style="display: none;">
+                <button class="btn btn-success">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div></div>
+</section>
+  
+  <script src="main.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
